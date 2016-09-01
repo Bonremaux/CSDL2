@@ -2,8 +2,10 @@ module CSDL2 [system] {
   header "/usr/include/SDL2/SDL.h"
   header "/usr/include/SDL2/SDL_image.h"
   header "/usr/include/SDL2/SDL_ttf.h"
+  header "/usr/include/SDL2/SDL_mixer.h"
   link "SDL2"
   link "SDL2_image"
   link "SDL2_ttf"
+  link "SDL2_mixer"
   export *
 }
